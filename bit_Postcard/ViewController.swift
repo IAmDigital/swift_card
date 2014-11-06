@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         batMsg.text = "";
         batMsg.resignFirstResponder();
         
-        mailButton.setTitle("Mail Sent", forState: UIControlState.Normal);
+        mailButton.setTitle("Mail Sent Perfectly", forState: UIControlState.Normal);
     }
 
 }
