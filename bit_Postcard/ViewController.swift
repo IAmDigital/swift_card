@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var batMsg: UITextField!
     @IBOutlet weak var mailButton: UIButton!
     
+    @IBOutlet weak var batLab: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +34,15 @@ class ViewController: UIViewController {
         batLabel.textColor = UIColor.redColor();
         
         batMsg.text = "";
-        batMsg.resignFirstResponder();
+        batMsg.resignFirstResponder(); //keyboard disappear
+        
+        
+        batLab.hidden = false;
+        batLab.text = batID.text;
+        batLab.textColor = UIColor.blueColor();
+        batID.text = "";
+            batID.resignFirstResponder(); //keyboard disappear
+        
         
         mailButton.setTitle("Mail Sent Perfectly", forState: UIControlState.Normal);
     }
