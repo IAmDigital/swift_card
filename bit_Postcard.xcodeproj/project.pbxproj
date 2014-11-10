@@ -426,6 +426,7 @@
 				5B7540771A0BD9CD00C5B9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7540781A0BD9CD00C5B9E6 /* Build configuration list for PBXNativeTarget "bit_PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				5B75407A1A0BD9CD00C5B9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
